@@ -22,74 +22,74 @@
 [Оригинальный репозиторий](https://github.com/s-nlp/detox/tree/main/emnlp2021/style_transfer/condBERT) статьи
 
 
-# Politeness
-## Кто делал
+## Politeness
+### Кто делал
 
 
 Полина Черноморченко
 
 
-## Датасет
+### Датасет
 [Politeness transfer dataset](https://github.com/tag-and-generate/politeness-dataset/blob/master/README.md)
 
 
-## Описание результатов и метрики
+### Описание результатов и метрики
 
 
 …
 
-# Humour
-## Кто делал
+## Humour
+### Кто делал
 
 
 Полина Машковцева
 
 
-## Датасет
+### Датасет
 
 
 …
 
 
-## Описание результатов и метрики
+### Описание результатов и метрики
 
 
 …
 
 
-# Neutrality
-## Кто делал
+## Neutrality
+### Кто делал
 
 
 Саша Шахнова
 
 
-## Датасет
+### Датасет
 
 
 [Wiki Neutrality Corpus](http://bit.ly/bias-corpus)
 
 
-## Описание результатов и метрики
+### Описание результатов и метрики
 
 
 …
 
 
-# Shakespearizing Modern English
-## Кто делал
+## Shakespearizing Modern English
+### Кто делал
 
 
 Таня Перевощикова
 
 
-## Датасет
+### Датасет
 
 
 [Shakespearify](https://www.kaggle.com/datasets/garnavaurha/shakespearify)
 
 
-## Описание результатов и метрики
+### Описание результатов и метрики
 
 
 …
