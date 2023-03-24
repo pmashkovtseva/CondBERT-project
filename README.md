@@ -58,7 +58,7 @@ CondBERT: so he said it: another way to say, its not my it, its their it
 ### Датасет
 
 
-…
+[FlickrStyle](https://paperswithcode.com/dataset/flickrstyle10k)
 
 
 ### Описание результатов и метрики
