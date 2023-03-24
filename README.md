@@ -43,7 +43,7 @@
 Я ожидала, что модель справиться с вежливостью хуже, чем с токсичностью, потому что невежливость менее выражена на лексическом уровне. Тем не менее, моя гипотеза не опрадалась - скор J для вежливости даже выше, чем у детоксификации. Кажется, невежливость выражается в лексическом плане не очень очевидным  (для носителя в моем лице) образом: самое "невежливое" слово  по версии логрега - "why".
 
 Пример:\
-Оригинал: why it has always failed and why it will fail again by caleb carr holy war , inc. :
+Оригинал: why it has always failed and why it will fail again by caleb carr holy war , inc. :\
 CondBERT: i know that it has always been possible , and i know that it will fail again by caleb . the end of our world history , inc . :
 
 
