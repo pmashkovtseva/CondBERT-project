@@ -52,7 +52,7 @@
 ### Датасет
 
 
-…
+[FlickrStyle](https://paperswithcode.com/dataset/flickrstyle10k)
 
 
 ### Описание результатов и метрики
