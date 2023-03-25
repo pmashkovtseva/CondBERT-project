@@ -50,7 +50,7 @@ CondBERT: i know that it has always been possible , and i know that it will fail
 
 …
 
-## Humour
+## Simplicity
 ### Кто делал
 
 
