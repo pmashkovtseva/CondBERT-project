@@ -102,8 +102,8 @@ CondBERT: i know that it has always been possible , and i know that it will fail
 
 
 ### Описание результатов и метрики
+Метрики:
 | ACC | SIM | FL | J | BLEU |
-| ----- | --- | --- | -- | - | ---- |
+| --- | --- | -- | - | ---- |
 |0.8160|0.8425|0.5130|0.3624|0.7651|
-
 …
