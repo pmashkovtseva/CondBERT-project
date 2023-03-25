@@ -106,3 +106,7 @@ CondBERT: i know that it has always been possible , and i know that it will fail
 | ACC | SIM | FL | J | BLEU |
 | --- | --- | -- | - | ---- |
 |0.8160|0.8425|0.5130|0.3624|0.7651|
+
+Пример:
+Оригинал: thou know’st the mask of night is on my face , else would a maiden blush bepaint my cheek for that which thou hast heard me speak tonight . 
+CondBert: do you know ’ , as the mask of night is on my face , else would a white - hot blush bepaint my cheek for that which you surely know ? you heard me speak tonight .
