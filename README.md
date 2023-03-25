@@ -110,3 +110,5 @@ CondBERT: i know that it has always been possible , and i know that it will fail
 Пример:  
 Оригинал: thou know’st the mask of night is on my face , else would a maiden blush bepaint my cheek for that which thou hast heard me speak tonight .  
 CondBert: do you know ’ , as the mask of night is on my face , else would a white - hot blush bepaint my cheek for that which you surely know ? you heard me speak tonight .
+
+## Выводы
