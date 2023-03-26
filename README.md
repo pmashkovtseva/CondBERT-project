@@ -76,8 +76,8 @@ CondBERT: i know that it has always been possible , and i know that it will fail
 3. Помимо "упрощения" слов, не привязанных к какой-либо тематике (*appealing*, *scrunity*, *observation*), есть и термины из разных сфер - науки, политики, социальной сферы и др. В датасете они тоже намешаны все вместе; модель неплохо справляется с "общепринятыми" словами, но с последним у нее проблемы, в том числе и из-за недостаточного количества данных для обучения. К сожалению, по simplicity довольно мало открытых датасетов, тем более с разделением на тексты с разной терминологией.
 4. Из-за того же недостатка данных у модели начинаются галлюцинации при попытке переписать предложения с multiword-параметром. Ср:
 * исходное предложение: so social media, which can open you up to the scrutiny and analysis of others, is not that appealing to her.
-* single-word translation: so webmedia , which can open you about to the observation and observation of others , is not that attractive to her .
-* miltiword translation: but studying different information information , because they do not opens many things because they respond more quickly too quickly because they make judgment mistakes because they analyze too many different things , does not make someone more interesting because they study many things .
+* single-word translation: so web online , which can open you to to the view and observation of others , is not that tempting to her .
+* miltiword translation: but using " new " information , because new information can opens people more more people will need more careful consideration but more careful about different opinions about other people , is not that very exciting idea she thinks about often enough .
 
 Метрики выше - результат single-word translation, потому что очевидно они будут лучше. К тому же, miltiword-инференс занимает почти 8 часов на 1000 примеров. **TBD: добавлю метрики с miltiword**
 
