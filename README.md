@@ -78,6 +78,7 @@ CondBERT: i know that it has always been possible , and i know that it will fail
 * исходное предложение: so social media, which can open you up to the scrutiny and analysis of others, is not that appealing to her.
 * single-word translation: so webmedia , which can open you about to the observation and observation of others , is not that attractive to her .
 * miltiword translation: but studying different information information , because they do not opens many things because they respond more quickly too quickly because they make judgment mistakes because they analyze too many different things , does not make someone more interesting because they study many things .
+
 Метрики выше - результат single-word translation, потому что очевидно они будут лучше. К тому же, miltiword-инференс занимает почти 8 часов на 1000 примеров. **TBD: добавлю метрики с miltiword**
 
 
