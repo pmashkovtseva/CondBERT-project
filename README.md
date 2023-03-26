@@ -60,7 +60,7 @@ CondBERT: i know that it has always been possible , and i know that it will fail
 ### Датасет
 
 
-[OneStop](https://huggingface.co/datasets/onestop_english), [TurkCorpus](https://paperswithcode.com/dataset/turkcorpus)
+[OneStop](https://huggingface.co/datasets/onestop_english)
 
 
 ### Описание результатов и метрики
