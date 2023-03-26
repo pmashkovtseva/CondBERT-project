@@ -64,9 +64,21 @@ CondBERT: i know that it has always been possible , and i know that it will fail
 
 
 ### Описание результатов и метрики
+Метрики:
+| ACC | SIM | FL | J | BLEU |
+| --- | --- | -- | - | ---- |
+|1.0000|0.8678|0.7310|0.6495|0.8115|
 
+Данные достались непростые. Их не очень мало для задачи переноса стиля, однако в процессе инференса я пришла к нескольким выводам.
 
-…
+1. Очень много вопросов к основному датасету (OneStop). Многие предложения, размеченные как самые простые (класс 0), на самом деле часто тянут на 1 или даже 2.
+2. Классификатор очень плохо обучался - accuracy по итогам двух эпох при нескольких запусках была от 0.5 до 0.85. В нашем случае это говорит как о неважном качестве датасета, так и о специфике задачи упрощения. С добавлением предложений из TurkCorpus становилось немного получше, но все равно не так хорошо, как в других доменах.
+3. Помимо "упрощения" слов, не привязанных к какой-либо тематике (*appealing*, *scrunity*, *observation*), есть и термины из разных сфер - науки, политики, социальной сферы и др. В датасете они тоже намешаны все вместе; модель неплохо справляется с "общепринятыми" словами, но с последним у нее проблемы, в том числе и из-за недостаточного количества данных для обучения. К сожалению, по simplicity довольно мало открытых датасетов, тем более с разделением на тексты с разной терминологией.
+4. Из-за того же недостатка данных у модели начинаются галлюцинации при попытке переписать предложения с multiword-параметром. Ср:
+* исходное предложение: so social media, which can open you up to the scrutiny and analysis of others, is not that appealing to her.
+* single-word translation: so webmedia , which can open you about to the observation and observation of others , is not that attractive to her .
+* miltiword translation: but studying different information information , because they do not opens many things because they respond more quickly too quickly because they make judgment mistakes because they analyze too many different things , does not make someone more interesting because they study many things .
+Метрики выше - результат single-word translation, потому что очевидно они будут лучше. К тому же, miltiword-инференс занимает почти 8 часов на 1000 примеров. **TBD: добавлю метрики с miltiword**
 
 
 ## Neutrality
