@@ -108,16 +108,14 @@ CondBERT: i know that it has always been possible , and i know that it will fail
 Несмотря на неплохие метрики, с помощью которых оцениваются задачи смены стиля, предложения порождённые CondBert'ом и даже избавившись оценочных слов необязательно подбирает близкие по смыслу слова. Примечательно, что через CondBert на примерах из [статьи](https://arxiv.org/pdf/1911.09709.pdf) с демографическую и фактивную предвзятость мы добились меньше всего результатов, что в некоторой степени подтвержает гипотезу Полины Черноморченко, так как в этих случаях мы обращаемся не семантическому, а к прагматическому эффекту.
 
 Пример: 
-Оригинал: Jewish forces overcome Arab militants.'
 
+Оригинал: Jewish forces overcome Arab militants.'
 CondBert: israeli defense forces overcome arab rebel forces .
 
 Оригинал:  This includes amazing Americans like...
-
 CondBert: this includes african - americans like
 
 Оригинал: John McCain exposed as an unprincipled politician
-
 ConBert: john mccain exposed as an unprincipled democrat .
 
 ## Shakespearean English to Modern English
