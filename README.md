@@ -107,10 +107,15 @@ CondBERT: i know that it has always been possible , and i know that it will fail
 
 Пример: 
 Оригинал: Jewish forces overcome Arab militants.'
+
 CondBert: israeli defense forces overcome arab rebel forces .
+
 Оригинал:  This includes amazing Americans like...
+
 CondBert: this includes african - americans like
+
 Оригинал: John McCain exposed as an unprincipled politician
+
 ConBert: john mccain exposed as an unprincipled democrat .
 
 ## Shakespearean English to Modern English
