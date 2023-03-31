@@ -80,8 +80,6 @@ CondBERT: i know that it has always been possible , and i know that it will fail
 * single-word translation: so web online , which can open you to to the view and observation of others , is not that tempting to her .
 * miltiword translation: but using " new " information , because new information can opens people more more people will need more careful consideration but more careful about different opinions about other people , is not that very exciting idea she thinks about often enough .
 
-Метрики выше - результат single-word translation, потому что очевидно они будут лучше. К тому же, miltiword-инференс занимает почти 8 часов на 1000 примеров.
-
 
 ## Neutrality
 ### Кто делал
