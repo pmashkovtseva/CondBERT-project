@@ -143,5 +143,3 @@ ConBert: john mccain exposed as an unprincipled democrat .
 Пример:  
 Оригинал: thou know’st the mask of night is on my face , else would a maiden blush bepaint my cheek for that which thou hast heard me speak tonight .  
 CondBert: do you know ’ , as the mask of night is on my face , else would a white - hot blush bepaint my cheek for that which you surely know ? you heard me speak tonight .
-
-## Выводы
