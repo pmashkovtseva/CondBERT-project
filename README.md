@@ -65,7 +65,7 @@ CondBERT: i know that it has always been possible , and i know that it will fail
 
 ### Описание результатов и метрики
 Метрики:
-|-----------| ACC | SIM | FL | J | BLEU |
+|| ACC | SIM | FL | J | BLEU |
 |-----------| --- | --- | -- | - | ---- |
 |single-word|1.0000|0.8799|0.7450|0.6647|0.8188|
 |multiword|1.0000|0.8833|0.9600|0.8532|0.8020|
@@ -80,7 +80,7 @@ CondBERT: i know that it has always been possible , and i know that it will fail
 * single-word translation: so web online , which can open you to to the view and observation of others , is not that tempting to her .
 * miltiword translation: but using " new " information , because new information can opens people more more people will need more careful consideration but more careful about different opinions about other people , is not that very exciting idea she thinks about often enough .
 
-Метрики выше - результат single-word translation, потому что очевидно они будут лучше. К тому же, miltiword-инференс занимает почти 8 часов на 1000 примеров. **TBD: добавлю метрики с miltiword**
+Метрики выше - результат single-word translation, потому что очевидно они будут лучше. К тому же, miltiword-инференс занимает почти 8 часов на 1000 примеров.
 
 
 ## Neutrality
